@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Generator: ControlBuild -->
+
+<project xmlns="http://www.plcopen.org/xml/tc6.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.plcopen.org/xml/tc6.xsd TC6_XML_V10.xsd">
+	<fileHeader companyName="GEENSOFT" productName="ControlBuild" productVersion="2010-3c" creationDateTime="2011-09-14T10:40:23-01:00" />
+	<contentHeader name="test_order">
+		<coordinateInfo>
+			<fbd>
+				<scaling x="60" y="60" />
+			</fbd>
+			<ld>
+				<scaling x="60" y="60" />
+			</ld>
+			<sfc>
+				<scaling x="60" y="60" />
+			</sfc>
+		</coordinateInfo>
+	</contentHeader>
+	<types>
+		<dataTypes />
+		<pous>
+			<pou name="hvs.test_order" pouType="functionBlock">
+				<interface>
+					<inputVars>
+						<variable name="Test2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>85a1943a-d9e3-4e13-a20d-635bf8688a1a</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>A</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="Test1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6ae0d460-e7d3-4b5d-95ef-ac9927264c23</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>C</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="A1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>f3f4a592-a88b-45d2-81c3-4538b9c6cf07</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>58d6d8e7-1a60-41cb-8799-12958c024cc0</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A3">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>bd3243fa-22c7-40d2-9691-4230ca1361ab</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A4">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ceef533b-edf3-42d6-b412-c8115e1b9ded</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>Z</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="A22">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>bdf07344-5b96-4eea-ab8e-64e5c434cd98</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="B">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>c127a43b-6141-4d85-81a7-a8af8b084796</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="D">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>57d09fea-830d-42c4-8aea-5275ebf0d11c</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="E">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>e8784da0-e5c0-47e6-b3ea-fe799b28ecb1</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<outputVars>
+						<variable name="Test5">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>3dc1751e-7f0b-440f-bbc2-909ed20ecde1</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>A16</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<outputVars>
+						<variable name="Test3">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>df8d2ec5-de1d-413b-989f-5dd3c5e7f9e0</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>C1</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<outputVars>
+						<variable name="A5">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>540307e6-5658-4655-9298-24e78f3f8469</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A6">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>d2df5c55-2ef2-4985-abe7-3c26d4bc3816</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A7">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>53c8bd62-1a09-4f05-a714-f26226acc634</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A9">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>acd5f3e5-969c-423d-a5ba-94a4d081d3a1</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>Z2</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<outputVars>
+						<variable name="A11">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>71a42ad4-89a4-46c8-a993-2e7ce6e841da</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A12">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>a1bb88ce-a783-4c8a-9d2a-22cfb738342f</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A13">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ffefdefb-e950-44c7-bf80-3751eb1b494b</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="A14">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6e41a53b-9afe-46c5-a919-16c6fbb3a062</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="B1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>05f469fc-eff4-401f-b2b5-2f2740050d5a</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="D1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>7dda9165-a54b-4450-a710-e656429f98f2</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="E1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>b89185a7-6388-440a-a724-87a64a3b40af</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Test4">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>c99b3867-46d1-4663-a603-918a5e3caab0</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Test6">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>1b9479db-7e0a-43ff-b35b-79029ed1763f</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<addData>
+						<data name="Geensys.CB.groupIn" handleUnknown="preserve">
+							<value>A,,C,,Z,,Z.A8,,Z.Z1,</value>
+						</data>
+						<data name="Geensys.CB.groupOut" handleUnknown="preserve">
+							<value>A15,,A16,,C1,,Z2,,Z2.A10,,Z2.Z3,,Z4,</value>
+						</data>
+					</addData>
+				</interface>
+				<actions>
+				</actions>
+				<body>
+					<FBD>
+					</FBD>
+				</body>
+				<addData>
+				</addData>
+			</pou>
+		</pous>
+	</types>
+	<instances>
+		<configurations />
+	</instances>
+</project>

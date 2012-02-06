@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Generator: ControlBuild -->
+
+<project xmlns="http://www.plcopen.org/xml/tc6.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.plcopen.org/xml/tc6.xsd TC6_XML_V10.xsd">
+	<fileHeader companyName="GEENSOFT" productName="ControlBuild" productVersion="2010-3c" creationDateTime="2011-09-19T16:15:47-01:00" />
+	<contentHeader name="hvs_2c_loc_cb_mgt">
+		<coordinateInfo>
+			<fbd>
+				<scaling x="100" y="100" />
+			</fbd>
+			<ld>
+				<scaling x="100" y="100" />
+			</ld>
+			<sfc>
+				<scaling x="32" y="8" />
+			</sfc>
+		</coordinateInfo>
+	</contentHeader>
+	<types>
+		<dataTypes />
+		<pous>
+			<pou name="hvs.hvs_2c_loc_cb_mgt" pouType="program">
+				<interface>
+					<inputVars>
+						<variable name="ILvViuDjIsPt">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>4b1cee24-712a-4355-8d8a-3e2312febb80</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;tection d&apos;isolement d&apos;un disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuDjSiQlmCcTfp">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>2fa49958-5c0a-4221-8757-24a3ad75ca7d</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuDjc1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>92f39263-159b-41c3-ae7b-7c89c5af9347</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuDjc2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>d80b3590-629d-4664-94be-198bdf47ce37</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuDjm">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>92c9bedb-8116-49b2-b41f-42d4c815dd87</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuNoSuriDjc1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>a1a8a389-bd2a-4a25-8a4c-77582e25a00c</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuNoSuriDjc2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>9ffd605e-356b-463b-a94a-fd3d47a0a96e</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e consolid&#233;e</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Viu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ILvViuQD">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>5a9dd60d-bbef-43bc-adbd-8bd8ba1a0f22</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Entr&#233;e trait&#233;e en redondance</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>LogicalInputs</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="C1_Hvs_ICbCntrReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>11754c1d-6916-431b-819c-8c16e6d77b57</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de r&#233;armements automatiques dans l&apos;&#233;lement</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="C2_Hvs_ICbCntrReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>495dbc0c-b0d9-4b15-a22f-72bf14609de7</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de r&#233;armements automatiques dans l&apos;&#233;lement</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="C3_Hvs_ICbCntrReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>e624a7e2-b402-4900-9c64-984305994ae4</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de r&#233;armements automatiques dans l&apos;&#233;lement</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="C4_Hvs_ICbCntrReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>715d8ee4-f574-43d5-8e76-ffc112df694e</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de r&#233;armements automatiques dans l&apos;&#233;lement</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>OtherFunctions.UM_Hvs_ICbCntrReload</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="Air_IAuxCompPressSwitch">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>15d79ed4-10f3-4f46-acd7-eb5f30e64ee6</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>1 si pression &lt; 6,5 bars, 0 si sup&#233;rieur &#224; 7 bars</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Atp_ICLHvOrdersSupprsd">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ea34228d-4c55-4778-96d7-d552a2627686</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Les ordres de l&apos;ATP doivent &#234;tre ignor&#233;s</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Train is over neutral section</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Atp_ICLOpengCb">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>a1f46cff-afb1-494b-86aa-f96dbea2b648</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Ordre d&apos;ouverture provenant de l&apos;ATP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="CL_Hvs_CCloseGenDj">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>53d92058-be0a-4d3b-999a-7e34dec2bf95</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Demande de fermeture du DJ de l&apos;unit&#233; menante</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Omc_IConsistMode">
+							<type>
+								<BYTE />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>1b2b60d3-cddb-497e-be65-fcc2a66535cc</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Mode de l&apos;&#233;l&#233;ment</value>
+								</data>
+								<data name="Geensys.CB.bits" handleUnknown="preserve">
+									<value>Omc_IPrepdMode,Omc_IPcoMode,Omc_IMtsMode,LBConsistInService</value>
+								</data>
+								<data name="Geensys.CB.libelleBit0" handleUnknown="preserve">
+									<value>Bit0 : Omc_IPrepdMode, Mode &quot;Pr&#233;par&#233;&quot;</value>
+								</data>
+								<data name="Geensys.CB.libelleBit1" handleUnknown="preserve">
+									<value>Bit1 : Omc_IPcoMode, Mode &quot;Pr&#233;conditionnement&quot;</value>
+								</data>
+								<data name="Geensys.CB.libelleBit2" handleUnknown="preserve">
+									<value>Bit2 : Omc_IMtsMode, Mode &quot;Maintien de service&quot; (MTS)</value>
+								</data>
+								<data name="Geensys.CB.libelleBit3" handleUnknown="preserve">
+									<value>Bit3 : Omc_IServMode, Mode &quot;En service&quot;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Trc_IAuthCbc1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>5e20f7cf-d301-4352-9116-590d50c17e3d</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Autorisation de fermer le DJC1</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Trc_IAuthCbc2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>80a948c2-0b0f-4369-adb8-ab6f004b6115</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Autorisation de fermer le DJC2</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Trc_IAuthCbm">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>5b007e35-683e-40eb-bc3c-4264d6c98ae6</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Autorisation de fermer le DJM</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>OtherFunctions</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="PDelayBefReload">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="1000" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6e8f27eb-d982-4b59-91df-44e17435759a</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[ms] Temps avant refermeture</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PDelayOpengCb">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="1000" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ae9ac878-b4fa-4566-bc73-6f9cb5467103</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[ms] Temps entre deux commandes de fermeture du DJ</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PDelayOpengOvercurrent">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="300" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>bc9a69e0-1bbc-4f02-b48b-85c683ebd0ff</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[s] D&#233;lai avant de permettre une refermeture due &#224; une surintensit&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PDurationPulseCloseCb">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="500" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ba974293-07fe-44c3-be95-236ed8e54b79</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[ms] dur&#233;e d&apos;une impulsion de fermeture disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PReloadTrainLimit">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="3" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>d71f7de4-ef98-4b24-a3d0-87c4447ad782</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Limite pour autoriser le r&#233;armement automatique</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PTimeOutPcoDj">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="30000" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>e21b55e5-4717-4bd0-b5fe-16f6d8fc7399</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[ms] Timeout avant de provoquer un d&#233;faut de pr&#233;conditionnement DJ</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="PTimeOutReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="300" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6a7007c0-f965-441e-8395-e7d09a53255a</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>[s] D&#233;lai durant lequel aucun nouveau r&#233;armement doit avoir lieu</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>Parameters</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<inputVars>
+						<variable name="Hvs_FVc2CritFaultTfp">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>f1cd9352-b9ee-4cbf-a2fb-64df985ead21</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FVe1CritFaultTfp">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>72db3357-87f9-40df-8438-1ddad5c01a7c</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FVe2CritFaultTfp">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>9606567b-a819-4c5f-bfb5-3d12d5a9ac25</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FVi2CritFaultTfp">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>2a27e643-3a04-41b0-af50-084d5d7ec77e</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FViuCritFaultTfp1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>75a469bb-9e89-4e2e-a9e8-092605834652</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FViuCritFaultTfp2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>3c7c784c-3b4e-45b4-b37b-5c5d3c627922</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut critique du TFP</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IHocDC">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>23b5d3b2-4d71-4a2e-ba8b-2ebf58114aac</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Le Hoc en position continue et pr&#233;sence de tension cat&#233;naire continue</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IHocGround">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>e92cb400-d6a2-4538-bf11-f73c7bef78e7</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Le Hoc en position terre et pr&#233;sence de tension cat&#233;naire alternative</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IModeElec">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>8cd9c522-e015-4d79-ba02-ae0f899eeac5</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Mode &#233;lectrique activ&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IPntDown">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>d5c515d3-afa3-42f1-b324-190103ba59ec</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Le pantographe peut &#234;tre consid&#233;r&#233; comme descendu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IPntDownAc">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>ae932f1b-5d03-4999-ace5-0a3e67ba3960</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pantographe monophas&#233; descendu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IPntDownDc">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>f7cb6254-7aab-4086-ad97-cb94c7da01d1</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pantographe continu descendu</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IPresCatSelected">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>cccc21dc-70c3-46ac-9bbe-eb5e3019d715</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;tection  d&apos;une tension valide (consolid&#233;e par la s&#233;lection de tension) par le palpeur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IPresMonoCat">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>659549f0-9999-4bf7-84fe-98acca07a2ec</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;tection d&apos;une tension monophas&#233;e par le palpeur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IHoldDjQtSoft">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>0697d940-f737-40c1-ab17-ebc69936412b</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Commande de maintien des DJ/QT logicielle</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IOvercurrentQlm">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>686fd421-d101-4d03-a6d1-8ca117fe2654</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut du QL(M)</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IPcoElec">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>f34402e5-78c3-4667-a6be-d855409c5c8b</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pr&#233;conditionnement &#233;lectrique</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IPcoPntFinished">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>96f802c6-b9ba-4e27-b7f7-8e61cbf138d6</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pr&#233;conditionnement &#233;lectrique</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IPntRaisedAc">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>88d11a0b-cc4e-48f6-85fb-4fbdcd136698</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pantographe monophas&#233; mont&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IPntRaisedDc">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>87879a36-9950-450d-bf6d-3cd4591c99b1</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Pantographe continu mont&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ITrBrManipAuth">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6db89dda-331c-46e5-9a14-a4320747f3c9</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Autorisation du manipulateur de traction freinage</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>ThisFunction</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>inputVars</value>
+							</data>
+						</addData>
+					</inputVars>
+					<outputVars>
+						<variable name="CLvViuCloseDj1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>50bc4ee7-5587-4903-874c-17d804d43f90</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Fermeture des disjoncteurs</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="CLvViuCloseDj2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>c7dcf43e-255b-4649-8478-15bbc29fad03</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Fermeture des disjoncteurs</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="CLvViuDjC1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>892760dc-6cec-4b32-bd76-c1f2bc619ed1</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Inhibition du DJC1</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="CLvViuDjC2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>c14c1f02-6562-4d7e-989d-95d298c84b03</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Inhibition du DJC2</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="CLvViuDjM">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>7834270c-bbdf-4717-a7b2-a2491d962dbd</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Inhibition du DJM</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.group" handleUnknown="preserve">
+								<value>LogicalOutputs</value>
+							</data>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<outputVars>
+						<variable name="Hvs_FViuDjC1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>7d571056-4d42-4b00-a495-4341845ec33b</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut sur disjoncteur</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Erreur du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FViuDjC2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>9a287c5a-d2a2-4e1b-9231-0097867a3b47</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut sur disjoncteur</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Erreur du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_FViuDjM">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>b33f2119-7ef7-4e34-a187-db80e27985ab</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut sur disjoncteur</value>
+								</data>
+								<data name="Geensys.CB.wordingPattern" handleUnknown="preserve">
+									<value>Erreur du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_ICbCntrReload">
+							<type>
+								<INT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>7716a36f-85de-4eea-9ea7-135462f7cd99</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Etat des compteur des DJ de l&apos;&#233;lement</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_ISyncStateDjC1">
+							<type>
+								<BYTE />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>1e9737da-e933-4ddb-b166-b4530d3f66d0</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Etat du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_ISyncStateDjC2">
+							<type>
+								<BYTE />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>30cbe9bd-13bb-491d-babd-1afa432c17a1</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Etat du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_ISyncStateDjM">
+							<type>
+								<BYTE />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>a365c6fd-de74-4b97-b8ad-569dedbefea5</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Etat du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IViuDjC1Isold">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>fb2481a6-7496-453b-9c8c-7210247ff73c</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Disjoncteur isol&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IViuDjC2Isold">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>0eeed019-b148-44c8-90e3-1ea527390f95</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Disjoncteur isol&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="Hvs_IViuDjMIsold">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>bcf5d705-f091-498b-9dbe-d3df9c35167a</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Disjoncteur isol&#233;</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IAllCbClosed">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>f0504a4a-dbdd-4899-93c5-f5c038e90829</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Tous les disjoncteurs sont ferm&#233;s dans l&apos;&#233;l&#233;ment</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IOpengCbReqstdDjC1">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>bf843b97-26ef-41de-b93b-e2fc44e3b586</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Demande d&apos;ouverture du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IOpengCbReqstdDjC2">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>b0b6b323-e358-469f-84d2-23d60662b330</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Demande d&apos;ouverture du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IOpengCbReqstdDjM">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>9d750307-003d-428f-81cf-e2dc38ea1a40</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Demande d&apos;ouverture du disjoncteur</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="IPcoCbFailure">
+							<type>
+								<BOOL />
+							</type>
+							<initialValue>
+								<simpleValue value="false" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>c0424567-52eb-425f-bb50-8d69782e4f39</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>D&#233;faut des disjoncteurs lors du pr&#233;conditionnement</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ISumAuthCloseCb">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6ae4b7c7-6044-44bc-af8b-49fa6254dda9</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de DJ disponibles &#224; la fermeture</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ISumAvailCb">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6bf3992a-02a3-4535-ac0d-084231eacd9e</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de DJ disponibles</value>
+								</data>
+							</addData>
+						</variable>
+						<variable name="ISumRemaingCb">
+							<type>
+								<DINT />
+							</type>
+							<initialValue>
+								<simpleValue value="0" />
+							</initialValue>
+							<addData>
+								<data name="Geensys.CB.nameProvider" handleUnknown="preserve">
+									<value>false</value>
+								</data>
+								<data name="Geensys.CB.IdentifierProperty" handleUnknown="preserve">
+									<value>6bb378cc-02c8-4f3d-8ba5-2119d5844fa9</value>
+								</data>
+								<data name="Geensys.CB.libelle" handleUnknown="preserve">
+									<value>Nombre de DJ restant &#224; fermer</value>
+								</data>
+							</addData>
+						</variable>
+						<addData>
+							<data name="Geensys.CB.kind" handleUnknown="preserve">
+								<value>outputVars</value>
+							</data>
+						</addData>
+					</outputVars>
+					<addData>
+						<data name="Geensys.CB.groupIn" handleUnknown="preserve">
+							<value>LogicalInputs,,OtherFunctions,,OtherFunctions.UM_Hvs_ICbCntrReload,,Parameters,,ThisFunction,</value>
+						</data>
+						<data name="Geensys.CB.groupOut" handleUnknown="preserve">
+							<value>LogicalOutputs,</value>
+						</data>
+					</addData>
+				</interface>
+				<actions>
+				</actions>
+				<body>
+					<FBD>
+						<inVariable localId="0">
+							<position x="256" y="14" />
+							<expression>ILvViuDjIsPt</expression>
+						</inVariable>
+						<inVariable localId="1">
+							<position x="256" y="38" />
+							<expression>ILvViuDjSiQlmCcTfp</expression>
+						</inVariable>
+						<inVariable localId="2">
+							<position x="328" y="14" />
+							<expression>ILvViuDjc1</expression>
+						</inVariable>
+						<inVariable localId="3">
+							<position x="328" y="38" />
+							<expression>ILvViuDjc2</expression>
+						</inVariable>
+						<inVariable localId="4">
+							<position x="256" y="38" />
+							<expression>ILvViuDjm</expression>
+						</inVariable>
+						<inVariable localId="5">
+							<position x="256" y="14" />
+							<expression>ILvViuNoSuriDjc1</expression>
+						</inVariable>
+						<inVariable localId="6">
+							<position x="232" y="38" />
+							<expression>ILvViuNoSuriDjc2</expression>
+						</inVariable>
+						<inVariable localId="7">
+							<position x="256" y="14" />
+							<expression>ILvViuQD</expression>
+						</inVariable>
+						<inVariable localId="8">
+							<position x="240" y="38" />
+							<expression>C1_Hvs_ICbCntrReload</expression>
+							<addData>
+								<data name="Geensys.CB.group" handleUnknown="preserve">
+									<value>UM_Hvs_ICbCntrReload</value>
+								</data>
+							</addData>
+						</inVariable>
+						<inVariable localId="9">
+							<position x="240" y="38" />
+							<expression>C2_Hvs_ICbCntrReload</expression>
+							<addData>
+								<data name="Geensys.CB.group" handleUnknown="preserve">
+									<value>UM_Hvs_ICbCntrReload</value>
+								</data>
+							</addData>
+						</inVariable>
+						<inVariable localId="10">
+							<position x="240" y="38" />
+							<expression>C3_Hvs_ICbCntrReload</expression>
+							<addData>
+								<data name="Geensys.CB.group" handleUnknown="preserve">
+									<value>UM_Hvs_ICbCntrReload</value>
+								</data>
+							</addData>
+						</inVariable>
+						<inVariable localId="11">
+							<position x="240" y="38" />
+							<expression>C4_Hvs_ICbCntrReload</expression>
+							<addData>
+								<data name="Geensys.CB.group" handleUnknown="preserve">
+									<value>UM_Hvs_ICbCntrReload</value>
+								</data>
+							</addData>
+						</inVariable>
+						<inVariable localId="12">
+							<position x="280" y="38" />
+							<expression>Air_IAuxCompPressSwitch</expression>
+						</inVariable>
+						<inVariable localId="13">
+							<position x="280" y="14" />
+							<expression>Atp_ICLHvOrdersSupprsd</expression>
+						</inVariable>
+						<inVariable localId="14">
+							<position x="256" y="38" />
+							<expression>Atp_ICLOpengCb</expression>
+						</inVariable>
+						<inVariable localId="15">
+							<position x="256" y="38" />
+							<expression>CL_Hvs_CCloseGenDj</expression>
+						</inVariable>
+						<inVariable localId="16">
+							<position x="232" y="14" />
+							<expression>Omc_IConsistMode</expression>
+						</inVariable>
+						<inVariable localId="17">
+							<position x="328" y="14" />
+							<expression>Trc_IAuthCbc1</expression>
+						</inVariable>
+						<inVariable localId="18">
+							<position x="328" y="38" />
+							<expression>Trc_IAuthCbc2</expression>
+						</inVariable>
+						<inVariable localId="19">
+							<position x="256" y="38" />
+							<expression>Trc_IAuthCbm</expression>
+						</inVariable>
+						<inVariable localId="20">
+							<position x="256" y="14" />
+							<expression>PDelayBefReload</expression>
+						</inVariable>
+						<inVariable localId="21">
+							<position x="256" y="14" />
+							<expression>PDelayOpengCb</expression>
+						</inVariable>
+						<inVariable localId="22">
+							<position x="256" y="38" />
+							<expression>PDelayOpengOvercurrent</expression>
+						</inVariable>
+						<inVariable localId="23">
+							<position x="2640" y="1152" />
+							<expression>PDurationPulseCloseCb</expression>
+						</inVariable>
+						<inVariable localId="24">
+							<position x="256" y="38" />
+							<expression>PReloadTrainLimit</expression>
+						</inVariable>
+						<inVariable localId="25">
+							<position x="2640" y="1176" />
+							<expression>PTimeOutPcoDj</expression>
+						</inVariable>
+						<inVariable localId="26">
+							<position x="256" y="14" />
+							<expression>PTimeOutReload</expression>
+						</inVariable>
+						<inVariable localId="27">
+							<position x="328" y="14" />
+							<expression>Hvs_FVc2CritFaultTfp</expression>
+						</inVariable>
+						<inVariable localId="28">
+							<position x="328" y="38" />
+							<expression>Hvs_FVe1CritFaultTfp</expression>
+						</inVariable>
+						<inVariable localId="29">
+							<position x="328" y="14" />
+							<expression>Hvs_FVe2CritFaultTfp</expression>
+						</inVariable>
+						<inVariable localId="30">
+							<position x="328" y="38" />
+							<expression>Hvs_FVi2CritFaultTfp</expression>
+						</inVariable>
+						<inVariable localId="31">
+							<position x="328" y="14" />
+							<expression>Hvs_FViuCritFaultTfp1</expression>
+						</inVariable>
+						<inVariable localId="32">
+							<position x="328" y="38" />
+							<expression>Hvs_FViuCritFaultTfp2</expression>
+						</inVariable>
+						<inVariable localId="33">
+							<position x="256" y="14" />
+							<expression>Hvs_IHocDC</expression>
+						</inVariable>
+						<inVariable localId="34">
+							<position x="256" y="38" />
+							<expression>Hvs_IHocGround</expression>
+						</inVariable>
+						<inVariable localId="35">
+							<position x="232" y="14" />
+							<expression>Hvs_IModeElec</expression>
+						</inVariable>
+						<inVariable localId="36">
+							<position x="232" y="38" />
+							<expression>Hvs_IPntDown</expression>
+						</inVariable>
+						<inVariable localId="37">
+							<position x="232" y="14" />
+							<expression>Hvs_IPntDownAc</expression>
+						</inVariable>
+						<inVariable localId="38">
+							<position x="232" y="38" />
+							<expression>Hvs_IPntDownDc</expression>
+						</inVariable>
+						<inVariable localId="39">
+							<position x="232" y="14" />
+							<expression>Hvs_IPresCatSelected</expression>
+						</inVariable>
+						<inVariable localId="40">
+							<position x="232" y="38" />
+							<expression>Hvs_IPresMonoCat</expression>
+						</inVariable>
+						<inVariable localId="41">
+							<position x="232" y="14" />
+							<expression>IHoldDjQtSoft</expression>
+						</inVariable>
+						<inVariable localId="42">
+							<position x="256" y="14" />
+							<expression>IOvercurrentQlm</expression>
+						</inVariable>
+						<inVariable localId="43">
+							<position x="2640" y="984" />
+							<expression>IPcoElec</expression>
+						</inVariable>
+						<inVariable localId="44">
+							<position x="256" y="14" />
+							<expression>IPcoPntFinished</expression>
+						</inVariable>
+						<inVariable localId="45">
+							<position x="256" y="38" />
+							<expression>IPntRaisedAc</expression>
+						</inVariable>
+						<inVariable localId="46">
+							<position x="256" y="38" />
+							<expression>IPntRaisedDc</expression>
+						</inVariable>
+						<inVariable localId="47">
+							<position x="256" y="38" />
+							<expression>ITrBrManipAuth</expression>
+						</inVariable>
+						<outVariable localId="48">
+							<position x="3288" y="864" />
+							<connectionPointIn>
+								<connection refLocalId="49" formalParameter="CCloseCb1" />
+							</connectionPointIn>
+							<expression>CLvViuCloseDj1</expression>
+						</outVariable>
+						<outVariable localId="50">
+							<position x="3288" y="888" />
+							<connectionPointIn>
+								<connection refLocalId="49" formalParameter="CCloseCb2" />
+							</connectionPointIn>
+							<expression>CLvViuCloseDj2</expression>
+						</outVariable>
+						<outVariable localId="51">
+							<position x="280" y="38" />
+							<connectionPointIn>
+								<connection refLocalId="52" formalParameter="CCbKeptOpend" />
+							</connectionPointIn>
+							<expression>CLvViuDjC1</expression>
+						</outVariable>
+						<outVariable localId="53">
+							<position x="2200" y="518" />
+							<connectionPointIn>
+								<connection refLocalId="54" formalParameter="CCbKeptOpend" />
+							</connectionPointIn>
+							<expression>CLvViuDjC2</expression>
+						</outVariable>
+						<outVariable localId="55">
+							<position x="280" y="14" />
+							<connectionPointIn>
+								<connection refLocalId="56" formalParameter="CCbKeptOpend" />
+							</connectionPointIn>
+							<expression>CLvViuDjM</expression>
+						</outVariable>
+						<outVariable localId="57">
+							<position x="280" y="14" />
+							<connectionPointIn>
+								<connection refLocalId="52" formalParameter="FCbFault" />
+							</connectionPointIn>
+							<expression>Hvs_FViuDjC1</expression>
+						</outVariable>
+						<outVariable localId="58">
+							<position x="2200" y="542" />
+							<connectionPointIn>
+								<connection refLocalId="54" formalParameter="FCbFault" />
+							</connectionPointIn>
+							<expression>Hvs_FViuDjC2</expression>
+						</outVariable>
+						<outVariable localId="59">
+							<position x="280" y="38" />
+							<connectionPointIn>
+								<connection refLocalId="56" formalParameter="FCbFault" />
+							</connectionPointIn>
+							<expression>Hvs_FViuDjM</expression>
+						</outVariable>
+						<outVariable localId="60">
+							<position x="3288" y="912" />
+							<connectionPointIn>
+								<connection refLocalId="49" formalParameter="Hvs_ICbCntrReload" />
+							</connectionPointIn>
+							<expression>Hvs_ICbCntrReload</expression>
+						</outVariable>
+						<outVariable localId="61">
+							<position x="2200" y="302" />
+							<connectionPointIn>
+								<connection refLocalId="52" formalParameter="ISyncStateDj" />
+							</connectionPointIn>
+							<expression>Hvs_ISyncStateDjC1</expression>
+						</outVariable>
+						<outVariable localId="62">
+							<position x="2200" y="710" />
+							<connectionPointIn>
+								<connection refLocalId="54" formalParameter="ISyncStateDj" />
+							</connectionPointIn>
+							<expression>Hvs_ISyncStateDjC2</expression>
+						</outVariable>
+						<outVariable localId="63">
+							<position x="2200" y="1118" />
+							<connectionPointIn>
+								<connection refLocalId="56" formalParameter="ISyncStateDj" />
+							</connectionPointIn>
+							<expression>Hvs_ISyncStateDjM</expression>
+						</outVariable>
+						<outVariable localId="64">
+							<position x="280" y="38" />
+							<connectionPointIn>
+								<connection refLocalId="52" formalParameter="ICbIsold" />
+							</connectionPointIn>
+							<expression>Hvs_IViuDjC1Isold</expression>
+						</outVariable>
+						<outVariable localId="65">
+							<position x="2200" y="614" />
+							<connectionPointIn>
+								<connection refLocalId="54" formalParameter="ICbIsold" />
+							</connectionPointIn>
+							<expression>Hvs_IViuDjC2Isold</expression>
+						</outVariable>
+						<outVariable localId="66">
+							<position x="280" y="14" />
+							<connectionPointIn>
+								<connection refLocalId="56" formalParameter="ICbIsold" />
+							</connectionPointIn>
+							<expression>Hvs_IViuDjMIsold</expression>
+						</outVariable>
+						<outVariable localId="67">
+							<position x="3288" y="936" />
+							<connectionPointIn>
+								<connection refLocalId="49" formalParameter="IAllCbClosed" />
+							</connectionPointIn>
+							<expression>IAllCbClosed</expression>
+						</outVariable>
+						<outVariable localId="68">
+							<position x="2200" y="278" />
+							<connectionPointIn>
+								<connection refLocalId="52" formalParameter="IOpengCbReqstd" />
+							</connectionPointIn>
+							<expression>IOpengCbReqstdDjC1</expression>
+						</outVariable>
+						<outVariable localId="69">
+							<position x="2200" y="686" />
+							<connectionPointIn>
+								<connection refLocalId="54" formalParameter="IOpengCbReqstd" />
+							</connectionPointIn>
+							<expression>IOpengCbReqstdDjC2</expression>
+						</outVariable>
+						<outVariable localId="70">
+							<position x="2200" y="1094" />
+							<connectionPointIn>
+								<connection refLocalId="56" formalParameter="IOpengCbReqstd" />
+							</connectionPointIn>
+							<expression>IOpengCbReqstdDjM</expression>
+						</outVariable>
+						<outVariable localId="71">
+							<position x="3288" y="960" />
+							<connectionPointIn>
+								<connection refLocalId="49" formalParameter="IPcoDjFailure" />
+							</connectionPointIn>
+							<expression>IPcoCbFailure</expression>
+						</outVariable>
+						<outVariable localId="72">
+							<position x="3088" y="278" />
+							<connectionPointIn>
+								<connection refLocalId="73" formalParameter="ISum" />
+							</connectionPointIn>
+							<expression>ISumAuthCloseCb</expression>
+						</outVariable>
+						<outVariable localId="74">
+							<position x="3088" y="470" />
+							<connectionPointIn>
+								<connection refLocalId="75" formalParameter="ISum" />
+							</connectionPointIn>
+							<expression>ISumAvailCb</expression>
+						</outVariable>
+						<outVariable localId="76">
+							<position x="3088" y="638" />
+							<connectionPointIn>
+								<connection refLocalId="77" formalParameter="ISum" />
+							</connectionPointIn>
+							<expression>ISumRemaingCb</expression>
+						</outVariable>
+						<block localId="78" width="483" height="672" typeName="hvs.hvs_2c_loc_hold_cb" instanceName="hvs_2c_loc_hold_cb">
+							<position x="304" y="158" />
+							<inputVariables>
+								<variable formalParameter="ILvViuDjIsPt">
+									<connectionPointIn>
+										<connection refLocalId="0" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ILvViuDjSiQlmCcTfp">
+									<connectionPointIn>
+										<connection refLocalId="1" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ILvViuNoSuriDjc1">
+									<connectionPointIn>
+										<connection refLocalId="5" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ILvViuNoSuriDjc2">
+									<connectionPointIn>
+										<connection refLocalId="6" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ILvViuQD">
+									<connectionPointIn>
+										<connection refLocalId="7" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Atp_ICLHvOrdersSupprsd">
+									<connectionPointIn>
+										<connection refLocalId="13" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Atp_ICLOpengCb">
+									<connectionPointIn>
+										<connection refLocalId="14" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FVc2CritFaultTfp">
+									<connectionPointIn>
+										<connection refLocalId="27" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FVe1CritFaultTfp">
+									<connectionPointIn>
+										<connection refLocalId="28" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FVe2CritFaultTfp">
+									<connectionPointIn>
+										<connection refLocalId="29" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FVi2CritFaultTfp">
+									<connectionPointIn>
+										<connection refLocalId="30" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FViuCritFaultTfp1">
+									<connectionPointIn>
+										<connection refLocalId="31" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_FViuCritFaultTfp2">
+									<connectionPointIn>
+										<connection refLocalId="32" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IHocDC">
+									<connectionPointIn>
+										<connection refLocalId="33" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IHocGround">
+									<connectionPointIn>
+										<connection refLocalId="34" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IModeElec">
+									<connectionPointIn>
+										<connection refLocalId="35" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IPntDown">
+									<connectionPointIn>
+										<connection refLocalId="36" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IPntDownAc">
+									<connectionPointIn>
+										<connection refLocalId="37" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IPntDownDc">
+									<connectionPointIn>
+										<connection refLocalId="38" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IPresCatSelected">
+									<connectionPointIn>
+										<connection refLocalId="39" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Hvs_IPresMonoCat">
+									<connectionPointIn>
+										<connection refLocalId="40" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IOvercurrentQlm">
+									<connectionPointIn>
+										<connection refLocalId="42" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPntRaisedAc">
+									<connectionPointIn>
+										<connection refLocalId="45" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPntRaisedDc">
+									<connectionPointIn>
+										<connection refLocalId="46" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="79" width="608" height="264" typeName="hvs.hvs_2c_loc_cb_reload" instanceName="hvs_2c_loc_cb_reload">
+							<position x="304" y="926" />
+							<inputVariables>
+								<variable formalParameter="C1_Hvs_ICbCntrReload">
+									<connectionPointIn>
+										<connection refLocalId="8" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="C2_Hvs_ICbCntrReload">
+									<connectionPointIn>
+										<connection refLocalId="9" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="C3_Hvs_ICbCntrReload">
+									<connectionPointIn>
+										<connection refLocalId="10" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="C4_Hvs_ICbCntrReload">
+									<connectionPointIn>
+										<connection refLocalId="11" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Omc_IConsistMode">
+									<connectionPointIn>
+										<connection refLocalId="16" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PReloadTrainLimit">
+									<connectionPointIn>
+										<connection refLocalId="24" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PTimeOutReload">
+									<connectionPointIn>
+										<connection refLocalId="26" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+								<data name="Geensys.CB.connectionIn" handleUnknown="preserve">
+									<value>UM_Hvs_ICbCntrReload,UM_Hvs_ICbCntrReload</value>
+								</data>
+							</addData>
+						</block>
+						<block localId="52" width="577" height="384" typeName="hvs.hvs_2c_loc_close_cb" instanceName="hvs_2c_loc_close_DJC1">
+							<position x="1600" y="38" />
+							<inputVariables>
+								<variable formalParameter="PDelayBefReload">
+									<connectionPointIn>
+										<connection refLocalId="20" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengCb">
+									<connectionPointIn>
+										<connection refLocalId="21" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengOvercurrent">
+									<connectionPointIn>
+										<connection refLocalId="22" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Air_IAuxCompPressSwitch">
+									<connectionPointIn>
+										<connection refLocalId="12" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="CL_Hvs_CCloseGenDj">
+									<connectionPointIn>
+										<connection refLocalId="15" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IAuthHoldTrc">
+									<connectionPointIn>
+										<connection refLocalId="17" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbReloadAuth">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="ICbReloadAuth" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbState">
+									<connectionPointIn>
+										<connection refLocalId="2" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldDjQtSoft">
+									<connectionPointIn>
+										<connection refLocalId="41" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldLoCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldLoDjC" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldTfpCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldTfpDjC1" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IOverCurrent">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IOverCurrentDjC1" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPcoPntFinished">
+									<connectionPointIn>
+										<connection refLocalId="44" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IResetCbCounter">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="IResetCbCounter" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ITrBrManipAuth">
+									<connectionPointIn>
+										<connection refLocalId="47" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Omc_IConsistMode">
+									<connectionPointIn>
+										<connection refLocalId="16" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="54" width="577" height="384" typeName="hvs.hvs_2c_loc_close_cb" instanceName="hvs_2c_loc_close_DJC2">
+							<position x="1600" y="446" />
+							<inputVariables>
+								<variable formalParameter="PDelayBefReload">
+									<connectionPointIn>
+										<connection refLocalId="20" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengCb">
+									<connectionPointIn>
+										<connection refLocalId="21" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengOvercurrent">
+									<connectionPointIn>
+										<connection refLocalId="22" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Air_IAuxCompPressSwitch">
+									<connectionPointIn>
+										<connection refLocalId="12" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="CL_Hvs_CCloseGenDj">
+									<connectionPointIn>
+										<connection refLocalId="15" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IAuthHoldTrc">
+									<connectionPointIn>
+										<connection refLocalId="18" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbReloadAuth">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="ICbReloadAuth" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbState">
+									<connectionPointIn>
+										<connection refLocalId="3" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldDjQtSoft">
+									<connectionPointIn>
+										<connection refLocalId="41" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldLoCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldLoDjC" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldTfpCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldTfpDjC2" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IOverCurrent">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IOverCurrentDjC2" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPcoPntFinished">
+									<connectionPointIn>
+										<connection refLocalId="44" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IResetCbCounter">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="IResetCbCounter" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ITrBrManipAuth">
+									<connectionPointIn>
+										<connection refLocalId="47" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Omc_IConsistMode">
+									<connectionPointIn>
+										<connection refLocalId="16" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="56" width="577" height="384" typeName="hvs.hvs_2c_loc_close_cb" instanceName="hvs_2c_loc_close_DJM">
+							<position x="1600" y="854" />
+							<inputVariables>
+								<variable formalParameter="PDelayBefReload">
+									<connectionPointIn>
+										<connection refLocalId="20" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengCb">
+									<connectionPointIn>
+										<connection refLocalId="21" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDelayOpengOvercurrent">
+									<connectionPointIn>
+										<connection refLocalId="22" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Air_IAuxCompPressSwitch">
+									<connectionPointIn>
+										<connection refLocalId="12" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="CL_Hvs_CCloseGenDj">
+									<connectionPointIn>
+										<connection refLocalId="15" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IAuthHoldTrc">
+									<connectionPointIn>
+										<connection refLocalId="19" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbReloadAuth">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="ICbReloadAuth" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ICbState">
+									<connectionPointIn>
+										<connection refLocalId="4" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldDjQtSoft">
+									<connectionPointIn>
+										<connection refLocalId="41" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldLoCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldLoDjM" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldTfpCb">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldTfpDjM" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IOverCurrent">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IOverCurrentDjM" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPcoPntFinished">
+									<connectionPointIn>
+										<connection refLocalId="44" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IResetCbCounter">
+									<connectionPointIn>
+										<connection refLocalId="79" formalParameter="IResetCbCounter" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ITrBrManipAuth">
+									<connectionPointIn>
+										<connection refLocalId="47" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="Omc_IConsistMode">
+									<connectionPointIn>
+										<connection refLocalId="16" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="73" width="384" height="120" typeName="lib10_hvs.sum06_bool" instanceName="sum_auth_close">
+							<position x="2680" y="230" />
+							<inputVariables>
+								<variable formalParameter="IInfo1">
+									<connectionPointIn>
+										<connection refLocalId="56" formalParameter="ICbAuthClose" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo2">
+									<connectionPointIn>
+										<connection refLocalId="52" formalParameter="ICbAuthClose" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo3">
+									<connectionPointIn>
+										<connection refLocalId="54" formalParameter="ICbAuthClose" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="75" width="384" height="120" typeName="lib10_hvs.sum06_bool" instanceName="sum_avail">
+							<position x="2680" y="398" />
+							<inputVariables>
+								<variable formalParameter="IInfo1">
+									<connectionPointIn>
+										<connection refLocalId="56" formalParameter="ICbAvail" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo2">
+									<connectionPointIn>
+										<connection refLocalId="52" formalParameter="ICbAvail" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo3">
+									<connectionPointIn>
+										<connection refLocalId="54" formalParameter="ICbAvail" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="77" width="384" height="120" typeName="lib10_hvs.sum06_bool" instanceName="sum_remaing">
+							<position x="2680" y="566" />
+							<inputVariables>
+								<variable formalParameter="IInfo1">
+									<connectionPointIn>
+										<connection refLocalId="56" formalParameter="ICbRemaing" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo2">
+									<connectionPointIn>
+										<connection refLocalId="52" formalParameter="ICbRemaing" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IInfo3">
+									<connectionPointIn>
+										<connection refLocalId="54" formalParameter="ICbRemaing" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<block localId="49" width="584" height="384" typeName="hvs.hvs_2c_loc_cb_summary" instanceName="hvs_2c_loc_cb_summary">
+							<position x="2664" y="816" />
+							<inputVariables>
+								<variable formalParameter="CCloseDJC1">
+									<connectionPointIn>
+										<connection refLocalId="52" formalParameter="CCbClose" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="CCloseDJC2">
+									<connectionPointIn>
+										<connection refLocalId="54" formalParameter="CCbClose" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="CCloseDJM">
+									<connectionPointIn>
+										<connection refLocalId="56" formalParameter="CCbClose" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldLoDjC">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldLoDjC" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IHoldLoDjM">
+									<connectionPointIn>
+										<connection refLocalId="78" formalParameter="IHoldLoDjM" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPcoElec">
+									<connectionPointIn>
+										<connection refLocalId="43" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IPcoPntFinished">
+									<connectionPointIn>
+										<connection refLocalId="44" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IReloadCntrDJC1">
+									<connectionPointIn>
+										<connection refLocalId="52" formalParameter="ICbReloadCntr" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IReloadCntrDJC2">
+									<connectionPointIn>
+										<connection refLocalId="54" formalParameter="ICbReloadCntr" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="IReloadCntrDJM">
+									<connectionPointIn>
+										<connection refLocalId="56" formalParameter="ICbReloadCntr" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ISumAvailCb">
+									<connectionPointIn>
+										<connection refLocalId="75" formalParameter="ISum" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="ISumRemaingCb">
+									<connectionPointIn>
+										<connection refLocalId="77" formalParameter="ISum" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PDurationPulseCloseCb">
+									<connectionPointIn>
+										<connection refLocalId="23" />
+									</connectionPointIn>
+								</variable>
+								<variable formalParameter="PTimeOutPcoDj">
+									<connectionPointIn>
+										<connection refLocalId="25" />
+									</connectionPointIn>
+								</variable>
+							</inputVariables>
+							<inOutVariables>
+							</inOutVariables>
+							<outputVariables>
+							</outputVariables>
+							<addData>
+							</addData>
+						</block>
+						<comment localId="80" width="1040" height="123">
+							<position x="-8" y="10" />
+							<content />
+							<documentation>
+								<xhtml:pre>Module de gestion des conditions locales au DjC / DjM</xhtml:pre>
+							</documentation>
+						</comment>
+						<comment localId="81" width="944" height="41">
+							<position x="18" y="849" />
+							<content />
+							<documentation>
+								<xhtml:pre>Module de gestion du r&#233;armement automatique</xhtml:pre>
+							</documentation>
+						</comment>
+						<comment localId="82" width="168" height="48">
+							<position x="1863" y="343" />
+							<content />
+							<documentation>
+								<xhtml:pre>Contr&#244;le du DjC1</xhtml:pre>
+							</documentation>
+						</comment>
+						<comment localId="83" width="168" height="48">
+							<position x="1867" y="742" />
+							<content />
+							<documentation>
+								<xhtml:pre>Contr&#244;le du DjC2</xhtml:pre>
+							</documentation>
+						</comment>
+						<comment localId="84" width="168" height="48">
+							<position x="1872" y="1144" />
+							<content />
+							<documentation>
+								<xhtml:pre>Contr&#244;le du DjM</xhtml:pre>
+							</documentation>
+						</comment>
+						<comment localId="85" width="759" height="93">
+							<position x="2464" y="77" />
+							<content />
+							<documentation>
+								<xhtml:pre>Module de synth&#232;se des informations</xhtml:pre>
+							</documentation>
+						</comment>
+					</FBD>
+				</body>
+				<addData>
+				</addData>
+			</pou>
+		</pous>
+	</types>
+	<instances>
+		<configurations />
+	</instances>
+</project>
